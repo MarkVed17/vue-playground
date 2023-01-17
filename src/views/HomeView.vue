@@ -6,7 +6,8 @@
     <!-- <PasswordMatcher /> -->
     <!-- <DisableSubmit /> -->
     <!-- <TweetBox /> -->
-    <PasswordVisibilityToggle />
+    <!-- <PasswordVisibilityToggle /> -->
+    <AddToCart />
   </div>
 </template>
 
@@ -17,7 +18,8 @@ import { defineComponent } from 'vue'
 // import PasswordMatcher from '@/components/PasswordMatcher.vue'
 // import DisableSubmit from '@/components/DisableSubmit.vue'
 // import TweetBox from '@/components/TweetBox.vue'
-import PasswordVisibilityToggle from '@/components/PasswordVisibilityToggle.vue'
+// import PasswordVisibilityToggle from '@/components/PasswordVisibilityToggle.vue'
+import AddToCart from '@/components/AddToCart.vue'
 
 export default defineComponent({
   name: 'HomeView',
@@ -27,7 +29,8 @@ export default defineComponent({
     // PasswordMatcher,
     // DisableSubmit,
     // TweetBox,
-    PasswordVisibilityToggle
+    // PasswordVisibilityToggle,
+    AddToCart
   }
 })
 </script>
