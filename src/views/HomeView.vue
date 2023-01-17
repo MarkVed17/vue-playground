@@ -5,7 +5,8 @@
     <!-- <CounterApp /> -->
     <!-- <PasswordMatcher /> -->
     <!-- <DisableSubmit /> -->
-    <TweetBox />
+    <!-- <TweetBox /> -->
+    <PasswordVisibilityToggle />
   </div>
 </template>
 
@@ -15,7 +16,8 @@ import { defineComponent } from 'vue'
 // import CounterApp from '@/components/CounterApp.vue'
 // import PasswordMatcher from '@/components/PasswordMatcher.vue'
 // import DisableSubmit from '@/components/DisableSubmit.vue'
-import TweetBox from '@/components/TweetBox.vue'
+// import TweetBox from '@/components/TweetBox.vue'
+import PasswordVisibilityToggle from '@/components/PasswordVisibilityToggle.vue'
 
 export default defineComponent({
   name: 'HomeView',
@@ -24,7 +26,8 @@ export default defineComponent({
     // CounterApp,
     // PasswordMatcher,
     // DisableSubmit,
-    TweetBox
+    // TweetBox,
+    PasswordVisibilityToggle
   }
 })
 </script>
